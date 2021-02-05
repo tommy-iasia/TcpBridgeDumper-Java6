@@ -171,6 +171,7 @@ public class Program {
                     dumping(false);
                     break;
 
+                case '\r':
                 case '\n': break;
 
                 default:
