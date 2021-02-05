@@ -38,7 +38,7 @@ For right and left traffic, it can be further splitted into
 
 | read | write | buffer | dump |
 | ---- | ---- | ---- | ---- |
-| { content ... } | { content ... } | data left in buffer | dump enabled |
+| { content ... } | { content ... } | data left in buffer due to congestion | dump enabled |
 
 And the traffic statistics are
 
