@@ -4,7 +4,7 @@ Bridge TCP traffic and dump data or statistics
 ![preview](https://raw.githubusercontent.com/tommy-iasia/TcpBridgeDumper-Java6/master/preview/main.png)
 
 # Configuration
-The configuration is inside **Program.config**
+The configuration is inside **Program.properties**
 
 | Group | Property | Descrption |
 | ---- | ---- | ---- |
@@ -15,7 +15,7 @@ The configuration is inside **Program.config**
 
 # Usage
 
-1. Edit **Program.config**
+1. Edit **Program.properties**
 2. Configure the outward address to originally destinated server address.
 3. Configure the testing client to connect to inward address instead of original server address.
 4. Turn on the dumper using **Program.cmd**
