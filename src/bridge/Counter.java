@@ -2,10 +2,10 @@ package bridge;
 
 public class Counter {
 
-    private int contentLength = 0;
+    private long contentLength = 0;
     private int contentCount = 0;
     private long contentTime = 0;
-    public void content(int length, long time) {
+    public void content(long length, long time) {
         this.contentLength += length;
         contentCount++;
 
